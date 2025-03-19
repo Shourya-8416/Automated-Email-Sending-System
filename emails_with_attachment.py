@@ -14,8 +14,8 @@ SMTP_SERVER = "smtp.hostinger.com"
 SMTP_PORT = 587
 IMAP_SERVER = "imap.hostinger.com"
 IMAP_PORT = 993
-EMAIL = "pranita@careercatalystconsulting.in"
-PASSWORD = "Mangalbatuk0202#"
+EMAIL = "#"
+PASSWORD = "#"
 
 SUBJECT = "Exclusive H-1B Opportunity with Tier II Product-Based Petitioner"
 EMAIL_TEMPLATE = """
