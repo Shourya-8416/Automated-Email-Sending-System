@@ -11,11 +11,11 @@ import time
 logging.basicConfig(filename="email_log.txt", level=logging.INFO)
 
 SMTP_SERVER = "smtp.hostinger.com"
-SMTP_PORT = 587
+SMTP_PORT = 587 // 
 IMAP_SERVER = "imap.hostinger.com"
 IMAP_PORT = 993
-EMAIL = "#"
-PASSWORD = "#"
+EMAIL = "#" // edit this according to you credentials
+PASSWORD = "#"  // edit this according to you credentials
 
 SUBJECT = "Exclusive H-1B Opportunity with Tier II Product-Based Petitioner"
 EMAIL_TEMPLATE = """
@@ -61,3 +61,4 @@ def send_email(recipient, first_name):
 # Send emails
 for _, row in email_data.iterrows():
     send_email(row["Email"], row["First Name"])
+
